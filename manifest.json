@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Basic auth",
+  "version": "1.0.0",
+  "permissions": ["<all_urls>", "webRequest", "webRequestBlocking"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "applications": {
+  "gecko": {
+    "id": "BasicAuth@1.0.0",
+    "strict_min_version": "42.0"
+  }
+}
+}
